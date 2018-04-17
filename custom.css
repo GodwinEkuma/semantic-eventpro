@@ -1,0 +1,84 @@
+.navigation{
+    width: 100%;
+}
+.menu .item:hover{
+    background-color: none;
+}
+.hero{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background-image: url('images/hero_banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.hero-content{
+    position: absolute;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    top: 85%;
+    padding: 2.5% 5%;
+    right: 0px;
+    left: 0px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.field{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.category{
+    margin-top: 50px;
+    background-color: #F8F8FA;
+    padding: 10% 0 5% 0;
+}
+.category-size{
+    height: 200px;
+}
+.category-size .header{
+    margin: 80px !important;
+    color: #fff;
+    vertical-align: center;
+    text-align: center;
+}
+.category-content{
+    margin-top: 30px !important;
+}
+.music{
+    margin: 0 15px !important;
+    background-image: linear-gradient(-143deg,rgba(0,0,0,.87) 2%,rgba(4,31,57,.59) 100%), 
+    url('https://cdn.evbstatic.com/s3-build/23222-rc2018-04-16_16.04-de3d28a/django/images/home/categories/220/img_category_music.jpg')
+}
+.food{
+    margin: 0 15px !important;
+    background-image: linear-gradient(-143deg,rgba(0,0,0,.87) 2%,rgba(4,31,57,.59) 100%), 
+    url('https://cdn.evbstatic.com/s3-build/23222-rc2018-04-16_16.04-de3d28a/django/images/home/categories/220/img_category_food.jpg')
+}
+.classes{
+    margin: 0 15px !important;
+    background-image: linear-gradient(-143deg,rgba(0,0,0,.87) 2%,rgba(4,31,57,.59) 100%), 
+    url('https://cdn.evbstatic.com/s3-build/23222-rc2018-04-16_16.04-de3d28a/django/images/home/categories/220/img_category_classes.jpg')
+}
+.arts{
+    margin: 0 15px !important;
+    background-image: linear-gradient(-143deg,rgba(0,0,0,.87) 2%,rgba(4,31,57,.59) 100%), 
+    url('https://cdn.evbstatic.com/s3-build/23222-rc2018-04-16_16.04-de3d28a/django/images/home/categories/220/img_category_arts.jpg')
+}
+.parties{
+    margin: 0 15px !important;
+    background-image: linear-gradient(-143deg,rgba(0,0,0,.87) 2%,rgba(4,31,57,.59) 100%), 
+    url('https://cdn.evbstatic.com/s3-build/23222-rc2018-04-16_16.04-de3d28a/django/images/home/categories/220/img_category_parties.jpg')
+}
+.sports{
+    margin: 0 15px !important;
+    background-image: linear-gradient(-143deg,rgba(0,0,0,.87) 2%,rgba(4,31,57,.59) 100%), 
+    url('https://cdn.evbstatic.com/s3-build/23222-rc2018-04-16_16.04-de3d28a/django/images/home/categories/220/img_category_sports.jpg')
+}
+.networks{
+    margin: 0 15px !important;
+    background-image: linear-gradient(-143deg,rgba(0,0,0,.87) 2%,rgba(4,31,57,.59) 100%), 
+    url('https://cdn.evbstatic.com/s3-build/23222-rc2018-04-16_16.04-de3d28a/django/images/home/categories/220/img_category_networking.jpg')
+}

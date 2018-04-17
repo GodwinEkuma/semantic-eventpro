@@ -1,1 +1,1 @@
-# semantic-eventpro
+This is Semantic Ui playground
